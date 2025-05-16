@@ -1,0 +1,8 @@
+# Enforce LF in the repo and LF in working copy for shell scripts
+*.sh    text eol=lf
+
+# Enforce LF in the repo but CRLF in working copy for Windows batch
+*.cmd   text eol=crlf
+
+# (Optional) Normalize everything else to LF
+*       text=auto
